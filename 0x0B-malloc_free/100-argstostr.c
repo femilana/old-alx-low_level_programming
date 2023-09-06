@@ -26,7 +26,7 @@ char *argstostr(int arc, char **arv)
 		return (NULL);
 	for (i = 0; i < arc; i++)
 	{
-	for (n = 0; av[i][n]; n++)
+	for (n = 0; arv[i][n]; n++)
 	{
 		str[r] = arv[i][n];
 		r++;
