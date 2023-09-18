@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Struct dog - dog info
+ * struct dog - dog info
  * @name: first info
  * @age: secound info
  * @owner: last info
@@ -16,9 +16,7 @@ struct dog
 {
 	char *name;
 	float age;
-	char owner;
-
-	return (0);
+	char *owner;
 };
 
 /**
